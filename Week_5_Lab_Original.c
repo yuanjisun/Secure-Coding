@@ -9,4 +9,3 @@ char cmd[BUFSIZE] = "wc -c < ";
 strncpy(cmd, argv[1]);
 system(cmd);
 }
-
